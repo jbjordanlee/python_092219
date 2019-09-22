@@ -1,0 +1,12 @@
+#!/usr/bin/python
+
+class vehicle:
+  number_of_wheel = 4
+  engine_type = 'gas'
+  
+  def __init__(self, brand, model):
+    self.brand = brand
+    self.model = model
+   
+v1 = vehicle('honda', 'civic')
+print(v1.brand)
